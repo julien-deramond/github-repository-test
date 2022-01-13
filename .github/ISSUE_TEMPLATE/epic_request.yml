@@ -5,6 +5,13 @@ labels: ["Epic", "Triage"]
 assignees: 
   - octocat
 body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: Take a couple minutes to help our maintainers work faster.
+      options:
+        - label: I have [searched the backlog](https://github.com/Orange-OpenSource/ods-ios/issues) for duplicate or closed feature requests
+          required: true
   - type: markdown
     attributes:
       value: |
