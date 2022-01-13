@@ -40,8 +40,7 @@ body:
       placeholder: achieve some goal
     validations:
       required: true
-
-- type: textarea
+  - type: textarea
     id: motivation
     attributes:
       label: Motivation and context
