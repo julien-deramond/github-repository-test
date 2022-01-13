@@ -3,7 +3,7 @@ description: Suggest a new Epic to be added to the backlog.
 title: "[Epic]: "
 labels: ["Epic", "Triage"]
 assignees: 
-  - octocat
+  - B3nz01d
 body:
   - type: checkboxes
     attributes:
