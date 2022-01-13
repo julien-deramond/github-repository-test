@@ -16,4 +16,11 @@ body:
       description: A short description of what the issue is.
     validations:
       required: true
-
+  - type: textarea
+    id: location
+    attributes:
+      label: Documentation Location
+      description: Where in the documentation should there be an update.
+    validations:
+      required: true
+  
