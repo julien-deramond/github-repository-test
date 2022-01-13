@@ -16,3 +16,19 @@ body:
     attributes:
       value: |
         Epic Description
+  - type: textarea
+    id: user
+    attributes:
+      label: As a 
+      description: 
+      placeholder: type of user / context of use
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: I want to
+      description: 
+      placeholder: perform some task
+    validations:
+      required: true
