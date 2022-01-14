@@ -10,13 +10,6 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: textarea
-    id: summary
-    attributes:
-      label: Summary
-      description: A short description of what the issue is.
-    validations:
-      required: true
-  - type: textarea
     id: location
     attributes:
       label: Documentation Location
