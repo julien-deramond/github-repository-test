@@ -56,7 +56,15 @@ body:
       placeholder: A clear and concise description of what you want to happen.
     validations:
       required: false
-  - type: input
+   - type: textarea
+    id: other
+    attributes:
+      label: 
+      description: Additional Context
+      placeholder: Add any other context about the problem here.
+    validations:
+      required: false
+   - type: input
     id: contact
     attributes:
       label: Contact Details
