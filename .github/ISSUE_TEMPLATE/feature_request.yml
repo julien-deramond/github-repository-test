@@ -1,7 +1,7 @@
 name: Epic Request
 description: Suggest a new Epic to be added to the backlog.
 title: "[feature]: "
-labels: ["feature", "Triage"]
+labels: ["feature", "triage"]
 assignees: 
   - B3nz01d
 body:
@@ -56,15 +56,15 @@ body:
       placeholder: A clear and concise description of what you want to happen.
     validations:
       required: false
-   - type: textarea
+  - type: textarea
     id: other
     attributes:
-      label: 
+      label: Other
       description: Additional Context
       placeholder: Add any other context about the problem here.
     validations:
       required: false
-   - type: input
+  - type: input
     id: contact
     attributes:
       label: Contact Details
